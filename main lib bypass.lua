@@ -1,5 +1,5 @@
 local ver = "1.1.0"
-local changelog = game:HttpGet("https://raw.githubusercontent.com/TheoTheEpic/AquaLib/main/Changelog.txt") or "UNABLE TO GET CHANGELOG"
+local changelog = game:HttpGet("https://raw.githubusercontent.com/TheoTheEpic/AquaLib/main/Changelog. ") or "UNABLE TO GET CHANGELOG"
 
 local lib = {}
 
@@ -1363,7 +1363,7 @@ lib.createWindow = function(name, title, draggable)
 		else
 			print(changelog)
 			writefile('SQHUB.txt', ver)
-			WindowLib.notification("SQHUB | New Version",  )
+			WindowLib.notification("SQHUB | New Version",changelog  )
 		end
 	else
 		writefile('SQHUB.txt', ver)
